@@ -35,3 +35,20 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# VSCode
+coverage*
+
+# local test files
+central*
+developer_environment*
+backend.tf
+security.tf
+varaibles.tf
+TODO.md
+
+# Terraform files
+.terraform*
+
+# Other files
+.DS_Store
