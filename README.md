@@ -1,6 +1,6 @@
 # gcp-terraform
 
-Messing around with GCP and terraform
+Messing around with GCP and terraform and Golang
 
 See `POC/` folder for setup instructions.
 
