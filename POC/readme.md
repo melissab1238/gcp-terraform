@@ -10,8 +10,8 @@ This project acts as an API and creates a GCP project with resources with terraf
 
 ### Get required dependencies
 
-`go get github.com/hashicorp/hcl/v2/hclwrite`
-`go get github.com/zclconf/go-cty/cty`
+- `go get github.com/hashicorp/hcl/v2/hclwrite`
+- `go get github.com/zclconf/go-cty/cty`
 
 ### Run it
 
