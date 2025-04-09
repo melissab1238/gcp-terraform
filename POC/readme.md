@@ -45,7 +45,7 @@ This service
   - resources [] > see `gcp.proto` for example API configuration
 
 # Future (If I had more time)
-
+- make the project bucket in the central project be used as tf backend
 - make the go app into an API
   - likely HTTP REST, but could use gRPC instead
   - use input variables in code, refactor
