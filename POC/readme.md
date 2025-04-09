@@ -2,6 +2,8 @@
 
 This project acts as an API and creates a GCP project with resources with terraform. The state files for the project's configuration is stored in a central-infrastructure (limited access) GCP project.
 
+![Architectural Diagram](architectural_diagram.png)
+
 ## Setup
 
 ### Initialize a new Go module
@@ -45,6 +47,7 @@ This service
   - resources [] > see `gcp.proto` for example API configuration
 
 # Future (If I had more time)
+
 - make the project bucket in the central project be used as tf backend
 - actually make the go app into an API
   - likely HTTP REST, but could use gRPC instead
